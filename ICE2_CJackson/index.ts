@@ -33,7 +33,7 @@ var readInput = () => {
     console.log("Enter the second number");
     let b = Number(readline.question(">> "));
 
-    let c: number;
+    let c: Number;
     switch(option){
       case "1": {
         c = add(a, b);
@@ -66,6 +66,4 @@ var readInput = () => {
 
 readInput();
 
-console.log("Thank you for using calculator. Good Bye");
-
-
+console.log("Thank you for using calculator. Goodbye");

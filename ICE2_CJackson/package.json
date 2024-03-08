@@ -1,0 +1,22 @@
+{
+  "name": "ice-2",
+  "version": "1.0.0",
+  "description": "Javascript to Typescript conversion in class assignment for INFT-2202-07 by Christina Jackson",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "type-coverage": "^2.27.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
